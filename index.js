@@ -7,6 +7,6 @@ function nowServing(array) {
   if (array === []) {
     return `There is nobody waiting to be served!`
   }
-  var person = array.pop()
+  var person = array.shift()
   return `Currently serving ${person}.`
 }
