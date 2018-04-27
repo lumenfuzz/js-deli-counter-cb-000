@@ -12,7 +12,7 @@ function nowServing(array) {
 }
 
 function currentLine(line) {
-  if (array.length === 0) {
+  if (line.length === 0) {
     return `The line is currently empty.`
   }
   var string = `1. ${line[0]}`
