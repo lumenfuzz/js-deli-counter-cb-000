@@ -4,7 +4,7 @@ function takeANumber(katzDeli, name) {
 }
 
 function nowServing(array) {
-  if (array == []) {
+  if (array.length < 1) {
     return `There is nobody waiting to be served!`
   }
   var person = array.shift()
